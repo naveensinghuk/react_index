@@ -1,0 +1,36 @@
+.new-expence{
+    background-color: #a892ee;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.25);
+}
+.new-expence button{
+    font: inherit;
+    cursor: 1rem 2rem;
+    padding: 1rem 2rem;
+    border: 5px solid rgb(12, 237, 35);
+    color:rgb(249, 243, 243);
+    border-radius: 12px;
+    margin-right: 1rem;
+    background-color: #390239;
+
+}
+.new-expence button:hover,
+.new-expence button:active{
+    background-color: #048119;
+    border-color: #f8f006;
+
+}
+.new-expence button.alternative{
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+}
+.new-expence button.alternative :hover,
+.new-expence button.alternative :active{
+    background-color: #7e0707;
+}
